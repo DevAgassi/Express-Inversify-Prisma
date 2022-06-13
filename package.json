@@ -1,0 +1,47 @@
+{
+  "name": "education",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bootstrap.ts",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.13.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "inversify-express-utils": "^6.4.3",
+    "mongoose": "^6.3.6",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.16",
+    "prettier": "^2.6.2",
+    "reflect-metadata": "^0.1.13",
+    "routing-controllers": "^0.9.0",
+    "typescript": "^4.7.3"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.2",
+    "tsconfig-paths": "^4.0.0",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/multer": "^1.4.7",
+    "@types/node": "^17.0.42",
+    "ts-node-dev": "^2.0.0"
+  },
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only --no-notify -r tsconfig-paths/register src/bootstrap.ts",
+    "build": "tsc",
+    "start": "node server.js",
+    "start:watch": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevAgassi/Exprtess-DI-Prisma.git"
+  },
+  "author": "DevAgassi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevAgassi/Exprtess-DI-Prisma/issues"
+  },
+  "homepage": "https://github.com/DevAgassi/Exprtess-DI-Prisma#readme"
+}
